@@ -1,21 +1,21 @@
 
-#### Asp.net core realtime webapp that shows a prototype on how to support live debugging of a flight evaluation in client
+# Asp.net core realtime webapp that shows a prototype on how to support live debugging of a flight evaluation in client
 
-### Pre-requirements
+#### Pre-requirements
 
 VS/VS Code
 .Net code 3.0 SDK
 Node.js with npm
 
-### Steps
+#### Steps
 
 clone
 npm install
-## run
+##3 Run
 npm run release
 dotnet run
 
-## debug
+### Debug
 npm run build
 dotnet run
 
