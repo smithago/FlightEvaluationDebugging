@@ -2,9 +2,6 @@ name: ASP.NET Core backend and Ts UI
 
 on: [push]
 
-env:
-  NODE_VERSION: '10.x'                # set this to the node version to use
-
 jobs:
   build:
 
@@ -21,7 +18,7 @@ jobs:
     - name: Setup Node
       uses: actions/setup-node@v1
       with:
-        node-version: ${{ env.NODE_VERSION }}
+        node-version: 10.x
     
     - name: npm install, build, and test
       run: |
