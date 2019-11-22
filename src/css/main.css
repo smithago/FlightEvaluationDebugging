@@ -1,0 +1,83 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    box-sizing: border-box;
+    padding: 2rem 4rem;
+    position: relative;
+    background: #fff;
+    display: block;
+}
+
+.debug-section {
+    padding: 2rem 4rem;
+    background: #ced4da;
+    box-sizing: border-box;
+}
+
+.list {
+    background: #fff;
+    border-radius: 3px;
+    border: 1px solid #ced4da;
+    display: flex;
+    flex-direction: column;
+}
+
+.list-row {
+    height: 50px;
+    border: 1px solid #ced4da;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+.verbose-label {
+    padding: 1rem;
+}
+
+.dbgbtn {
+    background: lightgreen;
+}
+
+.button {
+    width: 80px;
+}
+.pasbtn {
+    background: lightpink;
+}
+
+.verbtn {
+    background: lightblue;
+}
+
+.summary-evaluation {
+    display: flex;
+    flex-direction: row;
+    align-content: left;
+    margin: 10px;
+    justify-content: left;
+}
+
+.summary-evaluation > div {
+    text-align: left;
+}
+
+.verbose-evaluation {
+    display: flex;
+    flex-direction: row;
+    align-content: left;
+    margin: 10px;
+    justify-content: left;
+}
+
+.verbose-evaluation > div {
+    text-align: left;
+    margin: 10px;
+}
+
+.verbose-evaluation > p {
+    text-align: left;
+    margin: 10px;
+}

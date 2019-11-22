@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Flex Debug - Evaluations</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Live Debugger</h1>
+    </div>
+    <div class="debug-section">
+        <div class="message">
+            <h4>Debug if the setting override you made is working as expected.</h4>
+        </div>
+        <div class="list">
+            <div class="list-row input-setting">
+                <input id="txtApp" type="text" placeholder="Application" class="application" />
+                <input id="txtSetting" type="text" placeholder="Setting" class="setting" />
+                <button id="btnDebug" class="button dbgbtn">Debug</button>
+                <button id="btnPause" class="button pasbtn">Pause</button>
+            </div>
+            <div>
+                <div id="summary" class="list-row summary-evaluation">
+                </div>
+                <div id="verbose-section">
+                    <div class="list-row">
+                        <button id="btnVerbose" class="button verbtn">Verbose</button>
+                        <label class="verbose-label" for="btnVerbose">Click to get verbose events on the <b>override evaluation</b></label>
+                    </div>
+                    <div id="verbose-eval"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
