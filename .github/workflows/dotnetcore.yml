@@ -12,6 +12,11 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
+    
+    - name: Setup .NET Core
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 3.0
       
     - name: Setup Node
       uses: actions/setup-node@v1
@@ -24,10 +29,5 @@ jobs:
         npm run release --if-present
         npm run test --if-present
         
-    - name: Setup .NET Core
-      uses: actions/setup-dotnet@v1
-      with:
-        dotnet-version: 3.0
-      
     - name: Build with dotnet
       run: dotnet build --configuration Release
