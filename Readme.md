@@ -15,7 +15,7 @@ npm install
 npm run release
 dotnet run
 
-### Debug
+#### Debug
 npm run build
 dotnet run
 
